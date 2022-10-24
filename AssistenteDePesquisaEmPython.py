@@ -31,8 +31,6 @@ def ouvir_microfone():
             url =  "http://google.com/search?q=" + frase
         
         webbrowser.get().open(url)
-        #Retorna a frase pronunciada
-        #print("Você disse: " + frase)
         
     #Se nao reconheceu o padrao de fala, exibe a mensagem
     except sr.UnkownValueError:
